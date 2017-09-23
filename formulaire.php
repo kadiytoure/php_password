@@ -10,10 +10,11 @@
 <h1>Espace d'Authentification</h1>
 <form method="post" action="secret.php">
 <p>
-    <input type="text" name="user">Login</input><br/>
-    <input type="password" name="pswd" value="kangourou">Password</password><br/>
+   
+    <input type="password" name="pswd">Password</password><br/>
     <input type="submit" name="send" value="submit">
 </p>
 </form>
+
 </body>
 </html>

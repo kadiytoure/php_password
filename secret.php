@@ -1,11 +1,11 @@
 <?php
-$_POST['user'];
-$_POST['pswd'] = "kangourou";
-
-if ($_POST['user'] && $_POST['pswd'])  {
-   echo "Bravo! Authentification réussie!";
-} else {
-    echo "Echec de l'authentification, tu dois recommencer!";
+// isset permet de vérifier si la variable contenant le nom de l'input password existe 
+//et si elle contient le mot de passe kangourou; 
+if(isset($_POST['pswd']) AND $_POST['pswd']=="kangourou") {
+    echo "Bravo! Authentification réussie!";
+}else{
+    echo "echec de l'authentification!";
 }
+
 
 ?>
