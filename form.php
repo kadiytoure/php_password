@@ -13,7 +13,7 @@
     <input type="password" name="pswd">Password<br/>
     <input type="submit" name="send" value="submit">
 </p>
-    </form>
+   
     <?php
     //si le mot de passe n'a pas été envoyé ou est faux;
     if (!isset($_POST['pswd']) OR $_POST['pswd'] != "kangourou"){
@@ -24,5 +24,6 @@
    
     
 ?>
+ </form>
 </body>
 </html>
