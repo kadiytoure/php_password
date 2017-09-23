@@ -17,12 +17,12 @@
     <?php
     //si le mot de passe n'a pas été envoyé ou est faux;
     if (!isset($_POST['pswd']) OR $_POST['pswd'] != "kangourou"){
-          echo "authentification ratée!";
+          echo "<form method='post' action=\"form.php\">";
     } else {
         echo "bravo! Code d'accès: GHKKI-VGFFRT-DDHUU-GTYU";
     }
    
     
-    ?>
+?>
 </body>
 </html>
