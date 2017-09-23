@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Page sécurisée avec mot de passe.</title>
 </head>
 <body>
-<h1>Authentification</h1>
-<form method="POST" action="secret.php">
-    <input type="text">Login</input><br/>
-    <input type="text">Password</password><br/>
-    <button>Submit</button>
+<h1>Espace d'Authentification</h1>
+<form method="post" action="secret.php">
+<p>
+    <input type="text" name="user">Login</input><br/>
+    <input type="password" name="pswd" value="kangourou">Password</password><br/>
+    <input type="submit" name="send" value="submit">
+</p>
 </form>
 </body>
 </html>
