@@ -9,9 +9,8 @@
 <body>
 <h1>Espace d'Authentification</h1>
 <form method="post" action="secret.php">
-<p>
-   
-    <input type="password" name="pswd">Password</password><br/>
+<p>  
+    <input type="password" name="pswd">Password<br/>
     <input type="submit" name="send" value="submit">
 </p>
 </form>
